@@ -2,4 +2,4 @@
 members = [
   "simple"
 ]
-resolver = "3"
+resolver = "2"
