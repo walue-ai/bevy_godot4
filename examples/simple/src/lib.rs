@@ -14,6 +14,10 @@ use godot::{
 };
 use godot::{init::ExtensionLibrary, prelude::gdextension};
 
+const _: () = {
+    let _ = std::marker::PhantomData::<BevyApp>;
+};
+
 #[derive(Debug, Default, Clone, Eq, PartialEq, Hash, States)]
 enum GameState {
     #[default]
