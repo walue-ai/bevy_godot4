@@ -7,6 +7,7 @@ use bevy::{
 use bevy_godot4::prelude::{
     AsPhysicsSystem, ErasedGd, ErasedGdResource, GodotScene, SystemDeltaTimer, bevy_app,
 };
+use bevy_godot4::BevyApp;
 use godot::{
     builtin::Vector2,
     classes::{ResourceLoader, Sprite2D},
